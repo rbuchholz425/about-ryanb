@@ -11,6 +11,7 @@ li{
 	margin: auto;
 	text-align: center;
 	background-image: url("https://media2.trover.com/T/55a3c4698e7cb223c3004ba8/fixedw_large_4x.jpg");
+	border-radius: 8px;
 	font-weight: bold;
 	text-shadow: 0 0 1px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -21,6 +22,20 @@ img{
 	height:  150px;
 	width: auto;
 	border: solid black;
+}
+
+img:hover {
+	box-shadow: 0 0 10px 1px rgba(0, 1, 186, 0.5);
+}
+
+
+.marquee {
+	color: #4a76a5;
+	scroll-behavior: smooth;
+}
+
+.bear-attack {
+
 }
 
 
